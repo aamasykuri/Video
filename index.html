@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Video</title>
 
-    <!-- styles -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- Preloader -->
-    <div class="preloader">
-      <img src="./preloader.gif" alt="preloader">
-    </div>
-    <!-- Start Header -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <img src="./preloader.gif" alt="preloader">
+  </div>
+  <!-- Start Header -->
+  <header>
     <video class="video-container" controls muted autoplay loop>
       <source src="./video.mp4" type="video/mp4" />
     </video>
@@ -23,12 +26,14 @@
     <button class="switch-btn">
       <span>play</span>
       <span>pause</span>
-    <span class="switch">pause</span>
+      <span class="switch">pause</span>
     </button>
     <!-- End Video Switch -->
-    <!-- End Header -->
+  </header>
+  <!-- End Header -->
 
-    <!-- javascript -->
-    <script src="app.js"></script>
-  </body>
+  <!-- javascript -->
+  <script src="app.js"></script>
+</body>
+
 </html>
