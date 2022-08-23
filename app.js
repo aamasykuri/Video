@@ -14,3 +14,10 @@ btn.addEventListener("click", function () {
     video.play();
   }
 });
+
+// Preloader
+const preloader = document.querySelector(".preloder");
+
+window.addEventListener("load", function () {
+  preloader.classList.add("hide-preloader");
+});
